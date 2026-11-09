@@ -24,7 +24,7 @@
                 <h1>Better connections.<br><span>Everyday made easier.</span></h1>
                 <p>We offer high-speed internet, crystal-clear TV, reliable phone services, mobile plans, cable connections, and easy bill payments—all under one roof. Experience convenience, reliability, and savings with us today!</p>
                 <div class="d-flex gap-2">
-                    <a href="tel:+18336217696" class="btn-get-started">(833) 621-7696</a>
+                    <a href="tel:{{ config('site.contact.phone_link') }}" class="btn-get-started">{{ config('site.contact.phone_display') }}</a>
                     <a href="#contact" class="btn-get-started ml-2">Contact</a>
                     <!-- <a href="#contact" class="btn-watch-video d-flex align-items-center"><span>Contact</span></a> -->
                 </div>
@@ -333,7 +333,7 @@
                 <p>Need internet, TV, phone, or mobile services? We’re here to help! Get started today with easy, affordable, and reliable solutions all in one place. Contact us now to enjoy stress-free service.</p>
             </div>
             <div class="col-xl-3 cta-btn-container text-center">
-                <a class="cta-btn align-middle" href="tel:+18336217696">(833) 621-7696</a>
+                <a class="cta-btn align-middle" href="tel:{{ config('site.contact.phone_link') }}">{{ config('site.contact.phone_display') }}</a>
             </div>
         </div>
     </div>
@@ -399,7 +399,7 @@
                         <h3>How do I get started?</h3>
                         <div class="faq-content">
                             <p>To get started, just call us at the number below.</p>
-                            <a href="tel:+18336217696" class="btn btn-primary mt-2">Call Us at (833) 621-7696</a>
+                            <a href="tel:{{ config('site.contact.phone_link') }}" class="btn btn-primary mt-2">Call Us at {{ config('site.contact.phone_display') }}</a>
                         </div>
                         <i class="faq-toggle bi bi-chevron-right"></i>
                     </div>
@@ -426,7 +426,7 @@
                         <i class="bi bi-geo-alt flex-shrink-0"></i>
                         <div>
                             <h3>Address</h3>
-                            <p>7811 5th Ave #33 Brooklyn, NY 11209</p>
+                            <p>{{ config('site.contact.address') }}</p>
                         </div>
                     </div>
 
@@ -434,7 +434,7 @@
                         <i class="bi bi-telephone flex-shrink-0"></i>
                         <div>
                             <h3>Call Us</h3>
-                            <p>(833) 621-7696</p>
+                            <p><a href="tel:{{ config('site.contact.phone_link') }}">{{ config('site.contact.phone_display') }}</a></p>
                         </div>
                     </div>
 
@@ -442,7 +442,7 @@
                         <i class="bi bi-envelope flex-shrink-0"></i>
                         <div>
                             <h3>Email Us</h3>
-                            <p>support@fibrenetcablehub.com</p>
+                            <p><a href="mailto:{{ config('site.contact.email') }}">{{ config('site.contact.email') }}</a></p>
                         </div>
                     </div>
 

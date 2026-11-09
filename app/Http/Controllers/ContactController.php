@@ -28,7 +28,7 @@ class ContactController extends Controller
         Contact::create($validated);
 
         // Send email to admin
-        // Mail::to('support@fibrenetcablehub.com')->send(new ContactFormSubmitted($validated));
+        // Mail::to(config('site.contact.email'))->send(new ContactFormSubmitted($validated));
         // Mail::to('arslan.devsspace@gmail.com')->send(new ContactFormSubmitted($validated));
 
         return response()->json(['success' => true, 'message' => 'Message sent successfully.']);
