@@ -8,9 +8,9 @@
     <!-- Centered Nav -->
     <nav id="navmenu" class="navmenu mx-auto">
       <ul class="justify-content-center mb-0">
-        <li><a href="{{route('welcome')}}#hero" class="active">Home</a></li>
-        <li><a href="{{route('welcome')}}#about">About</a></li>
-        <li><a href="{{route('welcome')}}#services">Services</a></li>
+        <li><a href="{{ route('welcome') }}#hero" class="{{ request()->routeIs('welcome') ? 'active' : '' }}">Home</a></li>
+        <li><a href="{{ route('welcome') }}#about">About</a></li>
+        <li><a href="{{ route('welcome') }}#services" class="{{ request()->routeIs('services.show') ? 'active' : '' }}">Services</a></li>
         <li><a href="{{ route('payBill') }}" class="{{ request()->routeIs('payBill') ? 'active' : '' }}">Pay Bill</a></li>
         <li><a href="{{route('welcome')}}#contact">Contact</a></li>
       </ul>

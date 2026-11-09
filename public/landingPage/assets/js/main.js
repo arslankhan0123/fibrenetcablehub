@@ -213,6 +213,10 @@
   function navmenuScrollspy() {
     navmenulinks.forEach(navmenulink => {
       if (!navmenulink.hash) return;
+      let linkUrl = new URL(navmenulink.href, window.location.href);
+      let currentPath = window.location.pathname.replace(/\/$/, '') || '/';
+      let linkPath = linkUrl.pathname.replace(/\/$/, '') || '/';
+      if (linkPath !== currentPath) return;
       let section = document.querySelector(navmenulink.hash);
       if (!section) return;
       let position = window.scrollY + 200;
