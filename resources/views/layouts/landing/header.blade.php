@@ -2,7 +2,7 @@
   <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
     <a href="{{route('welcome')}}" class="logo d-flex align-items-center">
-      <h1 class="sitename">FibreNet<span>CableHub</span></h1>
+      <img src="{{ asset('landingPage/assets/img/fibernetcablehub-logo.svg') }}" class="brand-logo" alt="FibreNetCableHub — Internet, TV and connectivity">
     </a>
 
     <!-- Centered Nav -->

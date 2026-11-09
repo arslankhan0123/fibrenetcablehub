@@ -3,7 +3,7 @@
           <div class="row gy-4">
               <div class="col-lg-4 col-md-6 footer-about">
                   <a href="{{route('welcome')}}" class="d-flex align-items-center">
-                      <span class="sitename">FibreNetCableHub</span>
+                      <img src="{{ asset('landingPage/assets/img/fibernetcablehub-logo.svg') }}" class="brand-logo footer-brand-logo" alt="FibreNetCableHub">
                   </a>
                   <div class="footer-contact pt-3">
                       <p>We offer high-speed internet, crystal-clear TV, reliable phone services, mobile plans, cable connections, and easy bill payments all under one roof. Experience convenience, reliability, and savings with us today!</p>

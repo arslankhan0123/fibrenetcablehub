@@ -30,71 +30,14 @@
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                <img src="{{ asset('landingPage/assets/img/hero-img.png') }}" class="img-fluid animated" alt="Connected devices and digital services">
+                <img src="{{ asset('landingPage/assets/img/why-us.png') }}" class="img-fluid animated" alt="A connected network linking people, devices, and services">
             </div>
         </div>
     </div>
 
 </section><!-- /Hero Section -->
 
-<!-- Clients Section -->
-<!-- <section id="clients" class="clients section light-background">
 
-    <div class="container" data-aos="zoom-in">
-
-        <div class="swiper init-swiper">
-            <script type="application/json" class="swiper-config">
-                {
-                    "loop": true,
-                    "speed": 600,
-                    "autoplay": {
-                        "delay": 5000
-                    },
-                    "slidesPerView": "auto",
-                    "pagination": {
-                        "el": ".swiper-pagination",
-                        "type": "bullets",
-                        "clickable": true
-                    },
-                    "breakpoints": {
-                        "320": {
-                            "slidesPerView": 2,
-                            "spaceBetween": 40
-                        },
-                        "480": {
-                            "slidesPerView": 3,
-                            "spaceBetween": 60
-                        },
-                        "640": {
-                            "slidesPerView": 4,
-                            "spaceBetween": 80
-                        },
-                        "992": {
-                            "slidesPerView": 5,
-                            "spaceBetween": 120
-                        },
-                        "1200": {
-                            "slidesPerView": 6,
-                            "spaceBetween": 120
-                        }
-                    }
-                }
-            </script>
-            <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide"><img src="{{ asset('landingPage/assets/img/clients/client-1.png') }}" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="{{ asset('landingPage/assets/img/clients/client-2.png') }}" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="{{ asset('landingPage/assets/img/clients/client-3.png') }}" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="{{ asset('landingPage/assets/img/clients/client-4.png') }}" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="{{ asset('landingPage/assets/img/clients/client-5.png') }}" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="{{ asset('landingPage/assets/img/clients/client-6.png') }}" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="{{ asset('landingPage/assets/img/clients/client-7.png') }}" class="img-fluid" alt=""></div>
-                <div class="swiper-slide"><img src="{{ asset('landingPage/assets/img/clients/client-8.png') }}" class="img-fluid" alt=""></div>
-            </div>
-        </div>
-
-    </div>
-
-</section> -->
 
 <!-- About Section -->
 <section id="about" class="about section">
@@ -161,7 +104,7 @@
                 </div>
             </div>
             <div class="col-lg-5 order-1 order-lg-2 why-us-img">
-                <img src="{{ asset('landingPage/assets/img/why-us.png') }}" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+                <img src="{{ asset('landingPage/assets/img/hero-img.png') }}" class="img-fluid" alt="High-speed internet and connected devices" data-aos="zoom-in" data-aos-delay="100">
             </div>
         </div>
     </div>
@@ -175,7 +118,7 @@
         <div class="row">
 
             <div class="col-lg-6 d-flex align-items-center">
-                <img src="{{ asset('landingPage/assets/img/skills.png') }}" class="img-fluid" alt="">
+                <img src="{{ asset('landingPage/assets/img/services.jpg') }}" class="img-fluid connectivity-photo" alt="Friendly customer support for home and internet services">
             </div>
 
             <div class="col-lg-6 pt-4 pt-lg-0 content">
@@ -382,7 +325,7 @@
 
 <!-- Call To Action Section -->
 <section id="call-to-action" class="call-to-action section dark-background">
-    <img src="{{ asset('landingPage/assets/img/cta-bg.webp') }}" alt="">
+    <img src="{{ asset('landingPage/assets/img/why-us.png') }}" alt="">
     <div class="container">
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
             <div class="col-xl-9 text-center text-xl-start">
