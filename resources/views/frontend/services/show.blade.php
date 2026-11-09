@@ -1,5 +1,5 @@
 @extends('layouts.landing.main')
-@section('title', 'Home - Wavesync')
+@section('title', $service->title . ' | FibreNetCableHub')
 @section('content')
 <section id="hero" class="hero section dark-background">
     <div class="container position-relative">

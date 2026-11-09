@@ -2,7 +2,7 @@
   <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
     <a href="{{route('welcome')}}" class="logo d-flex align-items-center">
-      <h1 class="sitename">WaveSync Ny LLC</h1>
+      <h1 class="sitename">FibreNet<span>CableHub</span></h1>
     </a>
 
     <!-- Centered Nav -->

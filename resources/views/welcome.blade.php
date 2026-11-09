@@ -1,5 +1,5 @@
 @extends('layouts.landing.main')
-@section('title', 'Home - Wavesync')
+@section('title', 'FibreNetCableHub | Internet, TV & connectivity')
 @section('content')
 <style>
     .service-item {
@@ -20,7 +20,8 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-                <h1>All Your Digital Services in One Place</h1>
+                <span class="hero-eyebrow"><i class="bi bi-broadcast-pin"></i> Your connection starts here</span>
+                <h1>Better connections.<br><span>Everyday made easier.</span></h1>
                 <p>We offer high-speed internet, crystal-clear TV, reliable phone services, mobile plans, cable connections, and easy bill payments—all under one roof. Experience convenience, reliability, and savings with us today!</p>
                 <div class="d-flex gap-2">
                     <a href="tel:+18336217696" class="btn-get-started">(833) 621-7696</a>
@@ -29,7 +30,7 @@
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                <img src="{{ asset('landingPage/assets/img/hero-img.png') }}" class="img-fluid animated" alt="">
+                <img src="{{ asset('landingPage/assets/img/hero-img.png') }}" class="img-fluid animated" alt="Connected devices and digital services">
             </div>
         </div>
     </div>
@@ -498,7 +499,7 @@
                         <i class="bi bi-envelope flex-shrink-0"></i>
                         <div>
                             <h3>Email Us</h3>
-                            <p>support@wavesync-ny-llc.com</p>
+                            <p>support@fibrenetcablehub.com</p>
                         </div>
                     </div>
 

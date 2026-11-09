@@ -3,7 +3,7 @@
           <div class="row gy-4">
               <div class="col-lg-4 col-md-6 footer-about">
                   <a href="{{route('welcome')}}" class="d-flex align-items-center">
-                      <span class="sitename">WaveSync Ny LLC</span>
+                      <span class="sitename">FibreNetCableHub</span>
                   </a>
                   <div class="footer-contact pt-3">
                       <p>We offer high-speed internet, crystal-clear TV, reliable phone services, mobile plans, cable connections, and easy bill payments all under one roof. Experience convenience, reliability, and savings with us today!</p>
@@ -53,7 +53,7 @@
                   <div class="footer-contact">
                       <p><strong>Address:</strong>7811 5th Ave #33 Brooklyn, NY 11209</p>
                       <p><strong>Phone:</strong> <span>(833) 621-7696</span></p>
-                      <p><strong>Email:</strong> <span>support@wavesync-ny-llc.com</span></p>
+                      <p><strong>Email:</strong> <span>support@fibrenetcablehub.com</span></p>
                   </div>
                   
                   <!-- Payment Methods -->
