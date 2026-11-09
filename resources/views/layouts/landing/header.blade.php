@@ -11,6 +11,7 @@
         <li><a href="{{route('welcome')}}#hero" class="active">Home</a></li>
         <li><a href="{{route('welcome')}}#about">About</a></li>
         <li><a href="{{route('welcome')}}#services">Services</a></li>
+        <li><a href="{{ route('payBill') }}" class="{{ request()->routeIs('payBill') ? 'active' : '' }}">Pay Bill</a></li>
         <li><a href="{{route('welcome')}}#contact">Contact</a></li>
       </ul>
       <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

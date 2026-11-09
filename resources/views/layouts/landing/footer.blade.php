@@ -16,6 +16,7 @@
                       <li><i class="bi bi-chevron-right"></i> <a href="{{route('welcome')}}#hero">Home</a></li>
                       <li><i class="bi bi-chevron-right"></i> <a href="{{route('welcome')}}#about">About us</a></li>
                       <li><i class="bi bi-chevron-right"></i> <a href="{{route('welcome')}}#services">Services</a></li>
+                      <li><i class="bi bi-chevron-right"></i> <a href="{{ route('payBill') }}">Pay Bill</a></li>
                       <li><i class="bi bi-chevron-right"></i> <a href="{{route('welcome')}}#contact">Contact us</a></li>
                       <li><i class="bi bi-chevron-right"></i> <a href="{{route('privacyPolicy')}}">Privacy Policy</a></li>
                       <li><i class="bi bi-chevron-right"></i> <a href="{{route('refundPolicy')}}">Refund Policy</a></li>

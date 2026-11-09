@@ -122,3 +122,62 @@ body { letter-spacing: -.01em; }
   #service-details .service-detail-cta { align-items: stretch; flex-direction: column; }
   #service-details .service-detail-cta .btn-get-started { justify-content: center; }
 }
+
+/* Dedicated bill payment page */
+.pay-bill-hero { min-height: 0; padding: 155px 0 90px; }
+.pay-bill-hero .container { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(300px, .85fr); align-items: center; gap: 50px; }
+.pay-bill-hero-copy { max-width: 690px; }
+.pay-bill-hero .hero-eyebrow { color: #83e1d4; }
+.pay-bill-hero h1 { margin: 20px 0 18px; font-size: clamp(2.8rem, 5.2vw, 4.6rem); }
+.pay-bill-hero h1 span { color: #66d7c7; }
+.pay-bill-hero p { max-width: 630px; }
+.pay-bill-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 22px; margin-top: 28px; }
+.pay-bill-actions .btn-get-started { display: inline-flex; align-items: center; gap: 10px; }
+.pay-bill-email-link { display: inline-flex; align-items: center; gap: 8px; color: #d4e1ec; font-weight: 700; }
+.pay-bill-email-link:hover { color: #66d7c7; }
+.pay-bill-trust { display: flex; align-items: center; gap: 8px; margin-top: 22px; color: #b7c8d6; font-size: .88rem; }
+.pay-bill-trust i { color: #66d7c7; }
+.pay-bill-hero-art { position: relative; display: grid; min-height: 360px; place-items: center; overflow: hidden; }
+.pay-bill-art-orbit { position: absolute; width: 310px; height: 310px; border: 1px solid rgba(102,215,199,.25); border-radius: 50%; }
+.orbit-two { width: 230px; height: 230px; border-style: dashed; border-color: rgba(255,255,255,.18); }
+.pay-bill-receipt { position: relative; z-index: 2; display: flex; width: 178px; height: 228px; flex-direction: column; align-items: center; gap: 14px; padding: 25px 22px; border: 1px solid rgba(255,255,255,.6); border-radius: 20px; background: linear-gradient(150deg, #fff, #eaf8f7); box-shadow: 0 28px 70px rgba(0,0,0,.28); transform: rotate(-5deg); }
+.pay-bill-receipt > i { margin-bottom: 3px; color: #0c8e89; font-size: 38px; }
+.pay-bill-receipt > span { width: 100%; height: 8px; border-radius: 8px; background: #d9e7eb; }
+.pay-bill-receipt > span:nth-of-type(2) { width: 80%; align-self: flex-start; }
+.pay-bill-receipt > span:nth-of-type(3) { width: 60%; align-self: flex-start; }
+.pay-bill-receipt > b { display: grid; width: 48px; height: 48px; margin-top: 5px; place-items: center; border-radius: 50%; background: #12a6a0; color: #fff; font-size: 25px; }
+.pay-bill-art-chip { position: absolute; z-index: 3; display: grid; width: 64px; height: 64px; place-items: center; border: 1px solid rgba(255,255,255,.22); border-radius: 18px; background: rgba(255,255,255,.12); color: #7ce0d1; font-size: 28px; backdrop-filter: blur(8px); box-shadow: 0 12px 35px rgba(0,0,0,.15); }
+.chip-card { top: 48px; right: 10%; }.chip-wifi { bottom: 35px; left: 8%; }.chip-tv { right: 4%; bottom: 70px; }
+.pay-bill-content { background: #f3f7fa; }
+.pay-bill-intro { max-width: 760px; margin: 0 auto 42px; text-align: center; }
+.pay-bill-intro h2, .pay-bill-steps-heading h2, .pay-bill-contact h2 { margin: 10px 0 12px; color: #10243a; font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 800; letter-spacing: -.05em; }
+.pay-bill-intro p, .pay-bill-steps-heading p { margin: 0; color: #607184; font-size: 1.02rem; line-height: 1.7; }
+.pay-bill-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 20px; }
+.pay-bill-card { padding: 28px; border: 1px solid #e2eaf0; border-radius: 20px; background: #fff; box-shadow: 0 14px 36px rgba(16,36,58,.05); }
+.pay-bill-card-icon { display: grid; width: 52px; height: 52px; margin-bottom: 19px; place-items: center; border-radius: 15px; background: #e8f7f5; color: #0c8e89; font-size: 24px; }
+.pay-bill-card h3 { margin: 0 0 13px; color: #10243a; font-size: 1.25rem; font-weight: 800; letter-spacing: -.03em; }
+.pay-bill-card p { color: #607184; line-height: 1.65; }
+.pay-bill-card ul { display: grid; gap: 11px; margin: 0; padding: 0; list-style: none; }
+.pay-bill-card li { position: relative; padding-left: 25px; color: #506276; line-height: 1.55; }
+.pay-bill-card li:before { content: "✓"; position: absolute; top: 1px; left: 0; color: #0c9c92; font-weight: 800; }
+.pay-bill-card ul + p { margin: 17px 0 0; font-size: .93rem; }
+.pay-bill-steps { display: grid; grid-template-columns: .8fr 1.2fr; gap: 56px; align-items: center; margin-top: 72px; padding: 42px; border: 1px solid #e2eaf0; border-radius: 24px; background: #fff; }
+.pay-bill-steps ol { display: grid; gap: 16px; margin: 0; padding: 0; list-style: none; }
+.pay-bill-steps li { display: flex; align-items: flex-start; gap: 15px; }
+.pay-bill-steps li > span { display: grid; width: 38px; height: 38px; flex: 0 0 38px; place-items: center; border-radius: 12px; background: #10243a; color: #fff; font-weight: 800; }
+.pay-bill-steps li strong { display: block; margin: 1px 0 3px; color: #10243a; }
+.pay-bill-steps li p { margin: 0; color: #607184; line-height: 1.55; }
+.pay-bill-disclaimer { display: flex; gap: 17px; margin-top: 24px; padding: 24px 28px; border: 1px solid #d9e7ed; border-radius: 18px; background: #eaf2f6; }
+.pay-bill-disclaimer > i { color: #0c8e89; font-size: 24px; }
+.pay-bill-disclaimer h3 { margin: 0 0 6px; color: #10243a; font-size: 1rem; font-weight: 800; }
+.pay-bill-disclaimer p { margin: 0; color: #607184; font-size: .92rem; line-height: 1.65; }
+.pay-bill-contact { display: flex; align-items: center; justify-content: space-between; gap: 30px; margin-top: 24px; padding: 34px 38px; border-radius: 22px; background: #10243a; }
+.pay-bill-contact h2 { margin: 7px 0 4px; color: #fff; }
+.pay-bill-contact > div:first-child p { margin: 0; color: #c4d2df; }
+.pay-bill-contact .service-kicker { color: #83e1d4; }
+.pay-bill-contact-actions { display: grid; justify-items: start; gap: 12px; }
+.pay-bill-contact-actions .btn-get-started { display: inline-flex; align-items: center; gap: 8px; padding: 13px 18px; border-radius: 12px; background: #12a6a0; color: #fff; font-weight: 700; }
+.pay-bill-contact-actions > a:not(.btn-get-started) { color: #d4e1ec; }
+.pay-bill-contact-actions > a:hover { color: #66d7c7; }
+@media (max-width: 991px) { .pay-bill-hero .container { grid-template-columns: 1fr .75fr; gap: 20px; }.pay-bill-hero-art { transform: scale(.85); }.pay-bill-grid { grid-template-columns: 1fr 1fr; }.pay-bill-card:last-child { grid-column: 1 / -1; }.pay-bill-steps { grid-template-columns: 1fr; gap: 28px; } }
+@media (max-width: 767px) { .pay-bill-hero { padding: 130px 0 50px; }.pay-bill-hero .container { display: block; }.pay-bill-hero h1 { font-size: clamp(2.4rem, 11vw, 3.3rem); }.pay-bill-hero-art { display: none; }.pay-bill-actions { align-items: flex-start; flex-direction: column; gap: 16px; }.pay-bill-grid { grid-template-columns: 1fr; }.pay-bill-card:last-child { grid-column: auto; }.pay-bill-card { padding: 23px; }.pay-bill-steps { margin-top: 42px; padding: 25px; }.pay-bill-disclaimer { padding: 20px; }.pay-bill-contact { align-items: stretch; flex-direction: column; padding: 27px 24px; } }

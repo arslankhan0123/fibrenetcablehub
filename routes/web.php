@@ -10,6 +10,11 @@ use App\Models\Service;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/service/details/{id}', [ServiceController::class, 'frontendShow'])->name('services.show');
+Route::get('/pay-bill', function () {
+    $services = Service::where('status', 1)->get();
+
+    return view('frontend.pay-bill', compact('services'));
+})->name('payBill');
 Route::post('/store', [ContactController::class, 'store'])->name('contact.store');
 Route::get('/termsCondition', [FrontendController::class, 'termsCondition'])->name('termsCondition');
 Route::get('/privacyPolicy', [FrontendController::class, 'privacyPolicy'])->name('privacyPolicy');
