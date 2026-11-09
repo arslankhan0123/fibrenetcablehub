@@ -56,7 +56,7 @@
                       <p><strong>Phone:</strong> <a href="tel:{{ config('site.contact.phone_link') }}">{{ config('site.contact.phone_display') }}</a></p>
                       <p><strong>Email:</strong> <a href="mailto:{{ config('site.contact.email') }}">{{ config('site.contact.email') }}</a></p>
                   </div>
-                  
+
                   <!-- Payment Methods -->
                   <div class="payment-methods mt-3">
                       <img src="{{ asset('payment_methods.png') }}" alt="Payment Methods" class="img-fluid" style="max-width: 300px;">
