@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "user_id": null,
+    "title": "TV Services",
+    "image": null,
+    "short_description": "<p>TV installation, setup, and troubleshooting for a more complete home entertainment experience.</p>",
+    "long_description": "<h3>Installation and setup</h3><p>Get help preparing your television and connected equipment for comfortable, reliable viewing. We can review your room and devices, explain setup options, and help organize the installation.</p><ul><li>TV placement and wall mounting: review viewing height, wall type, bracket compatibility, and cable access before installation.</li><li>Device connections: connect a set-top box, streaming device, game console, soundbar, or other compatible equipment.</li><li>Channel and picture setup: scan or tune available channels and review basic picture and sound settings.</li><li>Smart TV configuration: connect supported TVs to Wi-Fi and help set up apps using your own accounts.</li><li>Cable organization: route and arrange visible wires neatly where the room and installation allow.</li></ul><h3>Troubleshooting and repair guidance</h3><p>If something is not working as expected, we can help check common causes and explain next steps. Repair availability depends on the TV model, fault, and parts.</p><ul><li>Picture problems: check input selection, source connections, display settings, and symptoms such as lines or a blank screen.</li><li>Sound problems: review volume, mute, audio output, speaker connections, and compatible sound equipment.</li><li>Power and remote issues: check power connections, batteries, sensors, and basic control settings.</li><li>Software and connectivity: review update status, app access, and Wi-Fi or wired network connections.</li></ul><h3>How to get started</h3><ol><li>Tell us the TV model and describe the issue or installation you need.</li><li>We review the setup, compatible equipment, and service options with you.</li><li>After you choose an option, we coordinate the next steps and explain any applicable charges.</li></ol>",
+    "price": "$499.00",
+    "status": 1,
+    "created_at": "2025-07-30 05:34:42",
+    "updated_at": "2025-07-30 05:59:22"
+  },
+  {
+    "id": 2,
+    "user_id": null,
+    "title": "Internet Service",
+    "image": null,
+    "short_description": "<p>Explore internet options and get help with installation, Wi-Fi setup, connected devices, and common connection problems.</p>",
+    "long_description": "<h3>Internet options</h3><p>Compare available connectivity choices for your home or business. The technologies and plans offered depend on the service address and provider coverage.</p><ul><li>Fiber internet: high-capacity service for busy households, video calls, streaming, and other data-intensive use where fiber is available.</li><li>Cable, broadband, or DSL: wired options that may suit everyday browsing, work, and entertainment, depending on local infrastructure.</li><li>Wireless and 4G/5G: alternatives for supported areas, with coverage and performance affected by signal and network conditions.</li><li>Plan comparisons: review advertised speeds, data limits, equipment, contract terms, promotions, and the ongoing price.</li></ul><h3>Installation and Wi-Fi support</h3><p>A good connection also depends on correct equipment setup and placement. We can help with common configuration and device-connection tasks.</p><ul><li>Modem and router setup: connect compatible equipment and check that it is online.</li><li>Wi-Fi configuration: set the network name and security options, then review router placement for coverage.</li><li>Device onboarding: connect phones, laptops, smart TVs, printers, and other supported devices.</li><li>Coverage troubleshooting: investigate weak spots, dropouts, and interference; discuss extenders or mesh Wi-Fi when suitable.</li><li>Ongoing help: review common causes of slow speeds and explain when an equipment or plan change may help.</li></ul><h3>How to get started</h3><ol><li>Share the service address and how you use the internet.</li><li>Compare providers and plans available at that address, including total costs and terms.</li><li>Choose an option, then arrange provider activation and any setup assistance.</li></ol>",
+    "price": "$449.00",
+    "status": 1,
+    "created_at": "2025-07-30 05:35:59",
+    "updated_at": "2025-07-30 05:58:58"
+  },
+  {
+    "id": 3,
+    "user_id": null,
+    "title": "Home Phone Service",
+    "image": null,
+    "short_description": "<p>Compare home phone options and get assistance with installation, handsets, calling features, and service questions.</p>",
+    "long_description": "<h3>Home phone options</h3><p>Choose from eligible traditional landline or internet-based phone services. Calling areas, included minutes, equipment, and monthly costs vary by provider and package.</p><ul><li>Traditional landline: a wired home phone option where service is available at your address.</li><li>Internet-based phone (VoIP): calling that uses an internet connection and compatible equipment.</li><li>Calling plans: compare local, long-distance, and international calling inclusions and any per-minute charges.</li><li>Bundle availability: some providers offer home phone alongside internet or television service.</li></ul><h3>Setup and calling features</h3><p>We can help explain the equipment and setup needed for your chosen service and review which features are included.</p><ul><li>Phone wiring and device setup: connect compatible phones to the provider equipment or phone jack.</li><li>Multiple handsets: check whether cordless or additional handsets can be used with the service.</li><li>Voicemail: learn how to access and manage messages when the feature is included.</li><li>Caller ID and call waiting: review feature availability, activation steps, and any extra charges.</li><li>Internet integration: for VoIP, check that your internet connection and power setup meet provider requirements.</li></ul><h3>How to get started</h3><ol><li>Compare service type, calling area, included features, and complete monthly cost.</li><li>Confirm equipment needs and emergency-calling details directly with the provider.</li><li>Arrange activation and connect the phone equipment according to provider instructions.</li></ol>",
+    "price": "$399.00",
+    "status": 1,
+    "created_at": "2025-07-30 05:48:45",
+    "updated_at": "2025-07-30 05:58:37"
+  },
+  {
+    "id": 4,
+    "user_id": null,
+    "title": "Mobile Plans",
+    "image": null,
+    "short_description": "<p>Compare mobile plans, data allowances, coverage, and device options for individual or multi-line use.</p>",
+    "long_description": "<h3>Choose a plan</h3><p>Review mobile plan options based on how much data, calling, and texting you need. Coverage, speeds, eligibility, and service terms vary by carrier and location.</p><ul><li>Prepaid plans: pay in advance and review the included data, calls, texts, and renewal period.</li><li>Monthly plans: compare recurring charges, allowances, overage rules, and any contract or installment terms.</li><li>Family and multi-line plans: review shared data, per-line costs, and account requirements.</li><li>Data needs: estimate usage for video, navigation, social apps, work, and hotspot sharing.</li><li>Coverage checks: confirm signal availability at home, work, and the places you travel most.</li></ul><h3>Phones and optional features</h3><p>You may be able to bring a compatible phone or select a new device, depending on the carrier and plan. Optional features have their own eligibility and costs.</p><ul><li>Bring your own device: check compatibility, unlock status, and support for the carrier network.</li><li>New devices: compare the full price, payment schedule, and any financing conditions.</li><li>Hotspot: confirm whether tethering is included and whether a separate data limit applies.</li><li>International use: review roaming countries, rates, and pass options before travelling.</li><li>Protection plans: check covered events, deductibles, exclusions, and cancellation terms.</li></ul><h3>How to get started</h3><ol><li>Estimate your monthly usage and identify the locations where coverage matters.</li><li>Compare total plan and device costs, including fees, limits, and promotional end dates.</li><li>Confirm device compatibility and provider terms before activating the line.</li></ol>",
+    "price": "$249.00",
+    "status": 1,
+    "created_at": "2025-07-30 05:50:34",
+    "updated_at": "2025-07-30 05:58:27"
+  },
+  {
+    "id": 5,
+    "user_id": null,
+    "title": "Cable Setup & Support",
+    "image": null,
+    "short_description": "<p>Cable installation and troubleshooting help for set-top boxes, television connections, channel setup, and multi-room viewing.</p>",
+    "long_description": "<h3>Cable installation</h3><p>Get help connecting your cable service and television equipment. The installation plan depends on your home wiring, equipment, and the package supplied by the provider.</p><ul><li>Set-top box setup: connect compatible equipment to the television and check power, input, and signal.</li><li>Cable routing: plan a practical route for the cables and identify any access or drilling requirements before work.</li><li>Channel configuration: scan or arrange the channel lineup included in your subscription.</li><li>Multi-room viewing: check equipment and subscription requirements for connecting additional televisions.</li><li>Picture and sound checks: confirm resolution, audio output, and connections for supported equipment.</li></ul><h3>Troubleshooting and package guidance</h3><p>If a channel is missing or the picture is interrupted, basic checks can help identify whether the issue is with the equipment, wiring, or provider service.</p><ul><li>Signal interruptions: check cable connections, service status, and whether the issue affects one or several TVs.</li><li>Equipment issues: review restart steps and indicators for an unresponsive box or remote.</li><li>Parental controls: configure available content restrictions and PIN settings.</li><li>Software updates: check whether the device needs an update or provider refresh.</li><li>Channel packages: compare included channels, premium add-ons, and on-demand options before subscribing.</li></ul><h3>How to get started</h3><ol><li>Describe the rooms, televisions, and cable equipment you want to connect.</li><li>Confirm the package, equipment, installation scope, and any charges with the provider.</li><li>Schedule setup and test each connection and included feature after installation.</li></ol>",
+    "price": "$299.00",
+    "status": 1,
+    "created_at": "2025-07-30 05:51:30",
+    "updated_at": "2025-07-30 05:58:19"
+  },
+  {
+    "id": 6,
+    "user_id": null,
+    "title": "Bill Payment Services",
+    "image": null,
+    "short_description": "<p>Get help paying eligible utility and connectivity bills and learn what to check before submitting a payment.</p>",
+    "long_description": "<h3>Bills you may be able to pay</h3><p>Payment access depends on participating billers, your location, and the payment service available to you. Eligible bill categories may include:</p><ul><li>Utilities: electricity, gas, and water bills for supported providers.</li><li>Telecommunications: mobile, landline, and home internet bills where the biller participates.</li><li>TV services: cable and television subscription payments supported by the payment system.</li><li>Other listed billers: check the current biller directory to confirm availability before starting.</li></ul><h3>Payment methods and good practice</h3><p>Available methods and processing times vary. Review the details carefully before authorizing a payment.</p><ul><li>Supported methods: use only the card, bank transfer, wallet, or in-person option shown for that biller.</li><li>Account details: match the customer or account number to the bill before submitting.</li><li>Fees and timing: check for processing charges, cut-off times, and the date the biller will receive funds.</li><li>Confirmation: save the transaction reference or receipt and check the biller account for posting.</li><li>Recurring payments: verify the amount, schedule, funding method, and cancellation process before enabling auto-pay.</li></ul><h3>How to get started</h3><ol><li>Select the correct participating biller and enter the account details from your bill.</li><li>Review the payment amount, fee, method, and expected processing time.</li><li>Submit the payment and keep the confirmation for your records.</li></ol>",
+    "price": "Service Fee Starting From $2 per bill (if applicable)",
+    "status": 1,
+    "created_at": "2025-07-30 05:54:23",
+    "updated_at": "2025-07-30 05:56:45"
+  },
+  {
+    "id": 7,
+    "user_id": null,
+    "title": "Bundle Packages",
+    "image": null,
+    "short_description": "<p>Compare internet, TV, and phone bundles, review the combined costs, and choose services that fit your household.</p>",
+    "long_description": "<h3>Bundle combinations</h3><p>A bundle can bring several household services under one provider or bill. Exact combinations depend on what providers offer at your address.</p><ul><li>TV and internet: combine entertainment with a home connection and compare channel and speed options.</li><li>Internet and home phone: pair broadband with a landline or internet-based calling plan.</li><li>Triple-play packages: review TV, internet, and phone together, including equipment for each service.</li><li>Custom combinations: ask whether mobile lines, premium channels, or speed upgrades can be added.</li><li>Availability: confirm that each service in the advertised bundle is available at your location.</li></ul><h3>Compare the full offer</h3><p>A lower advertised bundle price may be promotional or may exclude equipment, installation, taxes, or optional features. Compare the total cost over time.</p><ul><li>Monthly total: add recurring service, equipment rental, and any required charges.</li><li>One-time costs: check installation, activation, shipping, and equipment purchase fees.</li><li>Promotion terms: note the promotional period and the regular price afterward.</li><li>Contract details: review term length, early cancellation charges, and renewal conditions.</li><li>Service trade-offs: compare speeds, data limits, channel lineups, and calling inclusions.</li></ul><h3>How to get started</h3><ol><li>List the services and features your household actually needs.</li><li>Compare eligible bundles against separate plans using the full term cost.</li><li>Confirm all terms with the provider before placing an order.</li></ol>",
+    "price": "Starting From $70/month",
+    "status": 1,
+    "created_at": "2025-07-30 06:00:14",
+    "updated_at": "2025-07-30 06:09:36"
+  },
+  {
+    "id": 8,
+    "user_id": null,
+    "title": "Customer Support",
+    "image": null,
+    "short_description": "<p>Get guidance with service questions, setup, billing, and common connectivity issues through the support channels available.</p>",
+    "long_description": "<h3>How we can help</h3><p>Our support team can help you understand service options and work through common questions about internet, television, phone, mobile, cable, and bill payments.</p><ul><li>Plan questions: explain listed options and help compare common features and costs.</li><li>Setup guidance: provide general help connecting supported devices and getting started with a service.</li><li>Basic troubleshooting: work through common connection, television, and equipment checks.</li><li>Billing and payments: help you understand payment steps and locate relevant transaction information.</li><li>Provider escalation: direct account changes, outages, technical faults, and other provider-controlled issues to the responsible service provider.</li></ul><h3>Getting useful support</h3><p>Providing a few details helps us understand your question and suggest the right next step. Do not send passwords or full payment card details through ordinary contact channels.</p><ul><li>Service type and provider name, if known.</li><li>A short description of the issue and when it began.</li><li>Relevant device or equipment model, if the question is technical.</li><li>The best contact method and a suitable time to respond.</li><li>For account-specific requests, contact the provider through its verified official channel.</li></ul><h3>How to get started</h3><ol><li>Contact us using the phone number or form listed on this website.</li><li>Explain what service you need help with and the outcome you are looking for.</li><li>We will guide you or identify the provider channel that can resolve the request.</li></ol>",
+    "price": "Included Free with All Services",
+    "status": 1,
+    "created_at": "2025-07-30 06:01:39",
+    "updated_at": "2025-07-30 06:01:39"
+  }
+]
