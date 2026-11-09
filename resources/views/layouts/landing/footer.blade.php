@@ -72,6 +72,6 @@
           </div>
       </div>
       <div class="container copyright text-center mt-4">
-          <p><span>We are an independent service provider and are not affiliated with or endorsed by <strong class="px-1 sitename">Verizon, AT&T, Spectrum, Cox, Xfinity, or any other telecommunications provider</strong> . All product names, logos, and trademarks are the property of their respective owners and are used for identification purposes only.</span></p>
+          <p><span>We are an independent service provider and are not affiliated with or endorsed by <strong class="px-1 sitename">Verizon, AT&T, Spectrum, Cox, Xfinity, or any other telecommunications provider.</strong> All product names, logos, and trademarks are the property of their respective owners and are used for identification purposes only.</span></p>
       </div>
   </footer>
