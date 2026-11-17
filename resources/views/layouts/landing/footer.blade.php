@@ -52,9 +52,21 @@
                   <h4>Address</h4>
                   <p>Get in touch with us using the contact details below—we’re here to help!</p>
                   <div class="footer-contact">
+                      @if(config('site.contact.address'))
                       <p><strong>Address:</strong> {{ config('site.contact.address') }}</p>
-                      <p><strong>Phone:</strong> <a href="tel:{{ config('site.contact.phone_link') }}">{{ config('site.contact.phone_display') }}</a></p>
-                      <p><strong>Email:</strong> <a href="mailto:{{ config('site.contact.email') }}">{{ config('site.contact.email') }}</a></p>
+                      @endif
+
+                      @if(config('site.contact.phone_link') && config('site.contact.phone_display'))
+                      <p><strong>Phone:</strong>
+                          <a href="tel:{{ config('site.contact.phone_link') }}">{{ config('site.contact.phone_display') }}</a>
+                      </p>
+                      @endif
+
+                      @if(config('site.contact.email'))
+                      <p><strong>Email:</strong>
+                          <a href="mailto:{{ config('site.contact.email') }}">{{ config('site.contact.email') }}</a>
+                      </p>
+                      @endif
                   </div>
 
                   <!-- Payment Methods -->

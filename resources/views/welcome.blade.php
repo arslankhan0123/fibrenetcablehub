@@ -422,29 +422,43 @@
             <div class="col-lg-5">
 
                 <div class="info-wrap">
-                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                        <i class="bi bi-geo-alt flex-shrink-0"></i>
-                        <div>
-                            <h3>Address</h3>
-                            <p>{{ config('site.contact.address') }}</p>
+                    @if(config('site.contact.address'))
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                            <i class="bi bi-geo-alt flex-shrink-0"></i>
+                            <div>
+                                <h3>Address</h3>
+                                <p>{{ config('site.contact.address') }}</p>
+                            </div>
                         </div>
-                    </div>
+                    @endif
 
-                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                        <i class="bi bi-telephone flex-shrink-0"></i>
-                        <div>
-                            <h3>Call Us</h3>
-                            <p><a href="tel:{{ config('site.contact.phone_link') }}">{{ config('site.contact.phone_display') }}</a></p>
+                    @if(config('site.contact.phone_link') && config('site.contact.phone_display'))
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                            <i class="bi bi-telephone flex-shrink-0"></i>
+                            <div>
+                                <h3>Call Us</h3>
+                                <p>
+                                    <a href="tel:{{ config('site.contact.phone_link') }}">
+                                        {{ config('site.contact.phone_display') }}
+                                    </a>
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    @endif
 
-                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                        <i class="bi bi-envelope flex-shrink-0"></i>
-                        <div>
-                            <h3>Email Us</h3>
-                            <p><a href="mailto:{{ config('site.contact.email') }}">{{ config('site.contact.email') }}</a></p>
+                    @if(config('site.contact.email'))
+                        <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                            <i class="bi bi-envelope flex-shrink-0"></i>
+                            <div>
+                                <h3>Email Us</h3>
+                                <p>
+                                    <a href="mailto:{{ config('site.contact.email') }}">
+                                        {{ config('site.contact.email') }}
+                                    </a>
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    @endif
 
                     <!-- <iframe src="https://www.google.com/maps/search/A108+Adam+Street+New+York,+NY+535022/@40.6983031,-73.9888563,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDcyNy4wIKXMDSoASAFQAw%3D%3D" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                 </div>
