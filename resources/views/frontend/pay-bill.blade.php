@@ -31,11 +31,11 @@
 
             <h2>Why Choose FibreNetCableHub?</h2>
             <ul>
-                <li>✅ Live U.S. Billing Agents</li>
-                <li>✅ Fast Payment Help</li>
-                <li>✅ No Long Waits</li>
-                <li>✅ Private &amp; Secure</li>
-                <li>✅ Available Mon–Sat, 9AM–6PM EST</li>
+                <li>Live U.S. Billing Agents</li>
+                <li>Fast Payment Help</li>
+                <li>No Long Waits</li>
+                <li>Private &amp; Secure</li>
+                <li>Available Mon–Sat, 9AM–6PM EST</li>
             </ul>
 
             <h2>How It Works</h2>
